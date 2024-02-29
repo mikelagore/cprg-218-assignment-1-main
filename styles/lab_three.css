@@ -1,0 +1,27 @@
+.Video-Container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    padding: 48px 15px;
+}
+
+iframe{
+    margin: top 6rem;
+    border-radius: 10px;
+    flex:1
+}
+
+@media screen and (min-width:768px){
+    iframe{
+        height: 35rem;
+        max-width: 97%;
+    }
+}
+
+@media screen and (min-width:1500px){
+    iframe{
+        height: 40rem;
+        max-width: 68%;
+    }
+}
